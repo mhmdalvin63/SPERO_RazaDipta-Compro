@@ -13,15 +13,15 @@
     <div class="container">
         <div class="about-us py-5">
             <div class="row align-items-center">
-                <div class="col-5">
+                <div class="col-lg-5 col-12">
                     <div class="image-about-us">
                         <img src="{{ asset('..\Images\img-section-1.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="row align-items-end">
-                        <div class="col-6"><h3 class="mb-0">PT. RAZA DIPTA PRATAMA</h3></div>
-                        <div class="col-6 p-0"><hr class="title-hr mb-1"></div>
+                <div class="col-lg-7 col-12">
+                    <div class="row align-items-end justify-content-lg-start justify-content-center">
+                        <div class="col-xxl-6 col-xl-7 col-lg-8"><h3 class="mb-0 mt-3 text-center text-lg-start">PT. RAZA DIPTA PRATAMA</h3></div>
+                        <div class="col-xxl-6 col-xl-5 col-lg-4 col-4 p-0"><hr class="title-hr mb-1"></div>
                     </div>
                     <p>dikelola oleh manajemen modern yang mampu beradaptasi dengan perkembangan teknologi, selalu membaca trend, melakukan evaluasi kedalam dan meningkatkan kemampuan SDM untuk dapat memberikan yang terbaik.
 
@@ -33,19 +33,20 @@
         </div>
 
         <div class="visi-misi py-5">
-            <div class="row">
-                <div class="col-2 visi-misi-img">
+            <div class="row justify-content-lg-start justify-content-center">
+                <div class="col-lg-2 col-12 my-3 visi-misi-img">
                     <img src="{{ asset('..\Images\img-section-2.png') }}" alt="">
-                    <p>VISI & MISI</p>
+                    <p class="d-lg-block d-none">VISI & MISI</p>
+                    <h3 class="d-lg-none d-block">VISI & MISI</h3>
                 </div>
-                <div class="col-5"> 
-                    <div class="content-visi p-5">
+                <div class="col-lg-5 col-10 my-3"> 
+                    <div class="content-visi p-xl-5 p-4">
                         <h3>COMPANY <br> VISION</h3>
                         <p>"Menjadi Perusahaan Jasa Yang Handal dengen Memberikan Layanan Yang Berkualitas, Unggul, dan Harmonis dalam Layanan dan Kinerja".</p>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="content-visi p-5">
+                <div class="col-lg-5 col-10 my-3">
+                    <div class="content-visi p-xl-5 p-4">
                         <h3>COMPANY <br> MISION</h3>
                         <ul>
                             <li>Memberikan layanan prima dan solusi kepada mitra.</li>
@@ -65,7 +66,7 @@
             yang dikemas dengan rekreasi bersama dan mempunyai tujuan bersifat edukatif, inspiratif, dan motivatif,
             sesuai dengan kebutuhan dan perrmintaan</p>
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6 col-12 my-2">
                 <div class="col-mice text-center py-4 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="logo-text py-3 px-4"><h3>M</h3></div>
@@ -74,7 +75,7 @@
                     <p>Menyediakan sarana dan prasarana yang memadai untuk terselenggaranya meeting.</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6 col-12 my-2">
                 <div class="col-mice text-center py-4 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="logo-text py-3 px-4"><h3>M</h3></div>
@@ -83,7 +84,7 @@
                     <p>Menyediakan sarana dan prasarana yang memadai untuk terselenggaranya meeting.</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6 col-12 my-2">
                 <div class="col-mice text-center py-4 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="logo-text py-3 px-4"><h3>M</h3></div>
@@ -92,7 +93,7 @@
                     <p>Menyediakan sarana dan prasarana yang memadai untuk terselenggaranya meeting.</p>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6 col-12 my-2">
                 <div class="col-mice text-center py-4 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="logo-text py-3 px-4"><h3>M</h3></div>
@@ -108,15 +109,15 @@
     <div class="container">
         <div class="consultant py-5">
             <div class="row justify-content-between align-items-center">
-                <div class="col-5">
+                <div class="col-lg-5 col-12">
                     <img src="{{ asset('..\Images\img-section-4.png') }}" alt="" class="img-section-4"> 
                 </div>
-                <div class="col-6">
-                    <div class="row align-items-end">
-                        <div class="col-3">
-                            <h3 class="mb-0">Consultant</h3>
+                <div class="col-lg-6 col-12">
+                    <div class="row align-items-end justify-content-lg-start justify-content-center mb-3">
+                        <div class="col-xxl-3 col-xl-4 col-lg-5">
+                            <h3 class="mb-0 text-center text-lg-start mt-3">Consultant</h3>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-7 col-xl-7 col-lg-6 col-4">
                             <hr class="hr-4 mb-1">
                         </div>
                     </div>
@@ -133,33 +134,33 @@
         <div class="container">
          <h3 class="text-center">FASILITATOR</h3>
          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, alias quibusdam sunt nobis laudantium perferendis!</p>
-         <div class="row">
-             <div class="col-2 text-center">
+         <div class="row justify-content-lg-start justify-content-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
              </div>
-             <div class="col-2 text-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
              </div>
-             <div class="col-2 text-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
              </div>
-             <div class="col-2 text-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
              </div>
-             <div class="col-2 text-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
              </div>
-             <div class="col-2 text-center">
+             <div class="col-xl-2 col-md-4 col-10 text-center">
                 <img src="{{ asset('..\Images\fasilitator.png') }}" alt="" class="w-100">
                 <p class="fw-bold mb-0">Alvin</p>
                 <p class=" mb-0">Wicaksono</p>
@@ -171,15 +172,15 @@
     <div class="container">
         <div class="consultant py-5">
             <div class="row justify-content-between align-items-center">
-                <div class="col-5">
+                <div class="col-lg-5 col-12">
                     <img src="{{ asset('..\Images\img-section-4.png') }}" alt="" class="img-section-4"> 
                 </div>
-                <div class="col-6">
-                    <div class="row align-items-end">
-                        <div class="col-3">
-                            <h3 class="mb-0">Consultant</h3>
+                <div class="col-lg-6 col-12">
+                    <div class="row align-items-end justify-content-lg-start justify-content-center mb-3">
+                        <div class="col-xxl-3 col-xl-4 col-lg-5">
+                            <h3 class="mb-0 text-center text-lg-start mt-3">Consultant</h3>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-7 col-xl-7 col-lg-6 col-4">
                             <hr class="hr-4 mb-1">
                         </div>
                     </div>
@@ -190,13 +191,12 @@
                 </div>
             </div>
             <div class="row justify-content-between align-items-center">
-                
-                <div class="col-6">
-                    <div class="row align-items-end">
-                        <div class="col-3">
-                            <h3 class="mb-0">Consultant</h3>
+                <div class="col-lg-6 col-12">
+                    <div class="row align-items-end justify-content-lg-start justify-content-center mb-3">
+                        <div class="col-xxl-3 col-xl-4 col-lg-5">
+                            <h3 class="mb-0 text-center text-lg-start mt-3">Consultant</h3>
                         </div>
-                        <div class="col-3">
+                        <div class="col-xxl-7 col-xl-7 col-lg-6 col-4">
                             <hr class="hr-4 mb-1">
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                         peserta dari sisi pembekalan mindset, knowledge,
                         dan skill, serta menjawab kebutuhan untuk peningkatan kemampuan peserta dalam melakukan pekerjaan.</p>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 col-12">
                     <img src="{{ asset('..\Images\img-section-4.png') }}" alt="" class="img-section-4"> 
                 </div>
             </div>
@@ -220,8 +220,8 @@
     </div>
 
     <div class="container py-5">
-        <div class="row">
-            <div class="col-4 visi-misi-img" id="gallery-img">
+        <div class="row ">
+            <div class="col-xl-4 col-lg-6 col-12 mt-4 visi-misi-img" id="gallery-img">
                 <img src="{{ asset('..\Images\gallery.png') }}" alt="">
                 <p>
                     <span class="fw-bold">Kegiatan 1</span>
@@ -229,7 +229,7 @@
                     <span>Lorem Ipsum</span>
                 </p>
             </div>
-            <div class="col-4 visi-misi-img" id="gallery-img">
+            <div class="col-xl-4 col-lg-6 col-12 mt-4 visi-misi-img" id="gallery-img">
                 <img src="{{ asset('..\Images\gallery.png') }}" alt="">
                 <p>
                     <span class="fw-bold">Kegiatan 1</span>
@@ -237,7 +237,7 @@
                     <span>Lorem Ipsum</span>
                 </p>
             </div>
-            <div class="col-4 visi-misi-img" id="gallery-img">
+            <div class="col-xl-4 col-lg-6 col-12 mt-4 visi-misi-img" id="gallery-img">
                 <img src="{{ asset('..\Images\gallery.png') }}" alt="">
                 <p>
                     <span class="fw-bold">Kegiatan 1</span>
